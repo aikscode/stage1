@@ -1,0 +1,36 @@
+ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  margin: auto;
+  gap: 24px;
+
+  width: 80%;
+  height: 80vh;
+}
+a {
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.buttons {
+  background-color: #eaecf0;
+  color: #101828;
+  height: 3%;
+
+  width: 100%;
+  border: 1px solid #eaecf0;
+  border-radius: 8px;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-top: 24px;
+  padding-bottom: 32px;
+  font-family: "inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+}

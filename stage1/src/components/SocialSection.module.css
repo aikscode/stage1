@@ -1,0 +1,8 @@
+.socialSection {
+  height: 5vh;
+  margin-top: 3rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 1rem;
+}
