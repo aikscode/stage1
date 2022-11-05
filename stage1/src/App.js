@@ -1,8 +1,8 @@
-import Home from "./components/Home";
+import ContactMe from "./components/ContactMe";
 import "./App.css";
 
 function App() {
-  return <Home />;
+  return <ContactMe />;
 }
 
 export default App;
