@@ -1,9 +1,8 @@
 import React, { Fragment } from "react";
-import LinkSection from "./LinkSection";
-import ProfileSection from "./ProfileSection";
-import SocialSection from "./SocialSection";
-import Footer from "./Footer";
-
+import ProfileSection from "../components/ProfileSection";
+import LinkSection from "../components/LinkSection";
+import SocialSection from "../components/SocialSection";
+import Footer from "../components/Footer";
 function Home() {
   return (
     <Fragment>

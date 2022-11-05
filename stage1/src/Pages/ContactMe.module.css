@@ -1,0 +1,90 @@
+.contactMeHeading,
+.contactMeParagraph,
+.contactMe {
+  margin-left: 1rem;
+}
+
+.contactMe {
+  position: relative;
+}
+
+.contactMeHeading {
+  font: 2.5rem;
+  font-weight: 600;
+  margin-top: 3rem;
+}
+
+.contactMeParagraph {
+  margin-bottom: 1.5rem;
+}
+
+input {
+  width: 90%;
+  height: 24px;
+  border-radius: 8px;
+  border: 1px solid #d0d5dd;
+  margin-top: 0.5rem;
+  margin-bottom: 1.5rem;
+  padding: 10px 14px;
+}
+
+label {
+  display: block;
+  font-weight: 500;
+}
+
+.messageInput {
+  height: 100px;
+}
+
+/* ::placeholder,
+:-moz-placeholder {
+  text-align: start;
+} */
+
+.consentBox {
+  display: block;
+  border-radius: 50%;
+  height: 30px;
+  width: 30px;
+  margin-right: 1rem;
+  left: 0;
+}
+
+.consentBoxLabel {
+  display: flex;
+  line-height: 1.5rem;
+}
+
+.sendMessageButton {
+  color: #fff;
+
+  width: 95%;
+  height: 44px;
+  border: 1px solid 1570ef;
+  background-color: #1570ef;
+  border-radius: 8px;
+}
+.sendMessageButton {
+  margin-bottom: 4rem;
+}
+
+@media screen and (min-width: 366px) {
+  .contactMe {
+    padding-left: 2rem;
+    max-width: 1440px;
+    margin: 2rem auto;
+  }
+
+  .firstname,
+  .lastname {
+    width: 80%;
+  }
+
+  .firstnameLabel,
+  .lastnameLabel {
+    display: inline-flex;
+    width: 50%;
+    flex-direction: column;
+  }
+}
