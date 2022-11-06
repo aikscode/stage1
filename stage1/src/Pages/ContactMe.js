@@ -42,7 +42,7 @@ function ContactMe() {
         />
 
         <label htmlFor="message">Message</label>
-        <input
+        <textarea
           type="text"
           id="message"
           name="message"

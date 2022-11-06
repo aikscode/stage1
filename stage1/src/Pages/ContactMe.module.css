@@ -19,7 +19,8 @@
   margin-bottom: 1.5rem;
 }
 
-input {
+input,
+.messageInput {
   width: 90%;
   height: 24px;
   border-radius: 8px;
