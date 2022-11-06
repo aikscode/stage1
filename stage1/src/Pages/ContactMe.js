@@ -57,8 +57,7 @@ function ContactMe() {
             className={styles.consentBox}
             name="consentBox"
           />
-          You agree to providing your data to &#x7B;name&#x7D; who may contact
-          you
+          You agree to providing your data to Aikins Akenten who may contact you
         </label>
 
         <button

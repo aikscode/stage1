@@ -41,7 +41,7 @@ function LinkSection() {
           Design Books
         </a>
 
-        <Link id="book__design" className={styles.buttons} to="/contact">
+        <Link id="contact" className={styles.buttons} to="/contact">
           Contact Me
         </Link>
       </ul>
